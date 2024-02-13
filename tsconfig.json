@@ -18,8 +18,15 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": "./", // root of your "paths" below. Required if "paths" is defined
+    "paths": {
+      "@components/*": ["src/components/*"], // enables us to use @components/MyComponent
+      "@data/*": ["src/data/*"], // enables us to use @data/myData.js
+      "@assets/*": ["src/assets/*"], // enables us to use @assets/myImage
+    }
   },
   "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json", "composite": true }]
 }
