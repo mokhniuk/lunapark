@@ -1,0 +1,18 @@
+# ignore OS generated files
+.DS_Store
+
+#ignore node_modules and dist
+node_modules/
+dist
+dist-ssr
+*.local
+
+#ignore logs
+*.log
+*.log.*
+
+# ignore IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
