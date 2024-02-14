@@ -2,10 +2,13 @@
   "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "module": "ESNext",
     "skipLibCheck": true,
-
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
@@ -13,20 +16,31 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-
-    "baseUrl": "./", // root of your "paths" below. Required if "paths" is defined
+    "baseUrl": "./src",
     "paths": {
-      "@components/*": ["src/components/*"], // enables us to use @components/MyComponent
-      "@data/*": ["src/data/*"], // enables us to use @data/myData.js
-      "@assets/*": ["src/assets/*"], // enables us to use @assets/myImage
-    }
+      "@components/*": [
+        "./components/*"
+      ],
+      "@data/*": [
+        "./data/*"
+      ],
+      "@assets/*": [
+        "./assets/*"
+      ],
+    },
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json", "composite": true }]
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json",
+      "composite": true
+    }
+  ]
 }

@@ -27,7 +27,9 @@ npm start
 
 ## Using the Design System
 
-### To import a component:
+<!-- "lunapark": "npm:@mokhniuk/lunapark", -->
+
+### To import a component
 
 ```
 import { Component } from 'your-design-system';

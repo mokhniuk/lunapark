@@ -1,7 +1,8 @@
 {
   "name": "lunapark",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "type": "module",
+  "main": "src/main.tsx",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -36,5 +37,28 @@
     "typescript": "^5.2.2",
     "vite": "^5.1.1"
   },
-  "packageManager": "yarn@4.1.0"
+  "packageManager": "yarn@4.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mokhniuk/lunapark"
+  },
+  "keywords": [
+    "lunapark",
+    "design system",
+    "component library",
+    "ui kit",
+    "ui library",
+    "react",
+    "typescript",
+    "vite",
+    "storybook",
+    "eslint",
+    "prettier"
+  ],
+  "author": "Oleg Mokhniuk",
+  "bugs": {
+    "url": "https://github.com/mokhniuk/lunapark/issues"
+  },
+  "homepage": "https://github.com/mokhniuk/lunapark#readme",
+  "license": "MIT"
 }
