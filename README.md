@@ -1,4 +1,4 @@
-# Lunapark Design System
+# Lunapark
 
 ![Github Actions](https://github.com/mokhniuk/lunapark/actions/workflows/node.js.yml/badge.svg?branch=main)
 
@@ -10,46 +10,98 @@
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
-
 ## Description
 
-Briefly describe the purpose of your design system. Explain what it is, why it's needed, and what it will achieve.
+Lunapark - is a UI components library for frontend projects.
+It is built using Vite, React, CSS Modules, Typescript and Storybook.
+It can be used as starting point for a design system project. Lunapark will be available as npm-package to use as external UI-library later.
 
-## Planned Components
+## Components
 
-List the components that I plan to include in my design system.
+List of components that I plan to include in my Lunapark.
 
-- **Component 1**: Description
-- **Component 2**: Description
-- **Component 3**: Description
-- ...
+- [ ] **Title**: All levels of titles
+- [ ] **Text**: Body text and variations
+- [ ] **Util**: Wrapper component with variety of properties
+- [ ] **Card**: Basic card
+- [ ] **Button**: Action button
+- [ ] **ButtLink**: Link that pretends to be a button
+- [ ] **Link** Text link
+- [ ]  ...
+
+## Sections
+
+List of sections that are planned:
+
+- [ ] **Hero**
+- [ ] **About**
+- [ ] **CTA**
+- [ ] **Testimonials**
+- [ ] **Contact**
+- [ ] **Articles grid**
+- [ ] **Photo grid**
+- [ ]  ...
 
 ## Running the Project
 
-Explain how to run the project locally. This might include instructions for installing dependencies, starting a local development server, and so on.
+Install dependencies:
 
 ```bash
-# install dependencies
 npm install
-
-# start the development server
-npm start
 ```
 
-## Using the Design System
+or
+
+```bash
+yarn install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+or
+
+```bash
+yarn run dev
+```
+
+## Feature list
+
+Currenlty, this is a project, set up with Vite, React, Typescrypt and CSS modules.
+
+- [x] Storybook
+- [x] Alisases
+- [x] GitHub workflow
+- [x] GitHub build
+- [ ] ...
+
+What is planned to include in this project:
+
+- [ ] Components
+- [ ] Sections
+- [ ] Layouts
+- [ ] Documentation
+- [ ] Unit testings
+- [ ] npm package
+- [ ] Figma references
+- [ ] Separate starter with examples
+
+<!-- ## Using the Design System -->
 
 <!-- "lunapark": "npm:@mokhniuk/lunapark", -->
 
-### To import a component
+<!-- ### To import a component -->
 
-```
+<!-- ```
 import { Component } from 'lunapark';
-```
+``` -->
 
-### To change the theme of the design system
+<!-- ### To change the theme of the design system -->
 
 TBA
-
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
