@@ -1,5 +1,7 @@
 # Lunapark
 
+![Lunapark cover](https://repository-images.githubusercontent.com/756882027/97177439-d128-4713-8e86-7f3f40a676f4)
+
 ![Github Actions](https://github.com/mokhniuk/lunapark/actions/workflows/node.js.yml/badge.svg?branch=main)
 
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
