@@ -16,3 +16,7 @@ dist-ssr
 .vscode/
 *.sublime-project
 *.sublime-workspace
+
+# ignore yarn files
+.yarn/*
+yarn.lock
