@@ -3,6 +3,11 @@
 ![Lunapark cover](https://repository-images.githubusercontent.com/756882027/97177439-d128-4713-8e86-7f3f40a676f4)
 
 ![Github Actions](https://github.com/mokhniuk/lunapark/actions/workflows/node.js.yml/badge.svg?branch=main)
+![prettier version](https://img.shields.io/badge/prettier-4.0.1-brightgreen)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/mokhniuk/lunapark)
+![GitHub language count](https://img.shields.io/github/languages/count/mokhniuk/lunapark)
+![GitHub License](https://img.shields.io/github/license/mokhniuk/lunapark)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mokhniuk/lunapark)
 
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
