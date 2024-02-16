@@ -22,26 +22,59 @@ It can be used as starting point for a design system project. Lunapark will be a
 
 List of components that I plan to include in my Lunapark.
 
-- [ ] **Title**: All levels of titles
-- [ ] **Text**: Body text and variations
-- [ ] **Util**: Wrapper component with variety of properties
-- [ ] **Card**: Basic card
-- [ ] **Button**: Action button
-- [ ] **ButtLink**: Link that pretends to be a button
-- [ ] **Link** Text link
+- [ ] **Accordion**
+- [ ] **ArticlePreview**
+- [ ] **Avatar**
+- [ ] **Button**
+- [ ] **Card**
+- [ ] **Chip**
+- [ ] **Container**
+- [ ] **Copyright**
+- [ ] **Dropdown**
+- [ ] **Footer**
+- [ ] **Header**
+- [ ] **Input**:
+- [ ] **Link**
+- [ ] **Logo**
+- [ ] **Map**
+- [ ] **Media**
+- [ ] **Modal**
+- [ ] **Notification**
+- [ ] **Quote**
+- [ ] **Radiobutton**
+- [ ] **RangeSlider**
+- [ ] **Search**
+- [ ] **SectionTitle**
+- [ ] **Sitemap**
+- [ ] **Tag**
+- [ ] **TagsList**
+- [ ] **Testimonial**
+- [ ] **Text**
+- [ ] **Title**
+- [ ] **Title**
+- [ ] **Text**
+- [ ] **Util**
+- [ ] **Video**
 - [ ]  ...
 
 ## Sections
 
 List of sections that are planned:
 
-- [ ] **Hero**
 - [ ] **About**
-- [ ] **CTA**
-- [ ] **Testimonials**
-- [ ] **Contact**
 - [ ] **Articles grid**
-- [ ] **Photo grid**
+- [ ] **Banner**
+- [ ] **Contact**
+- [ ] **CTA**
+- [ ] **Features**
+- [ ] **FAQ**
+- [ ] **Hero**
+- [ ] **Partners**
+- [ ] **PhotoGallery**
+- [ ] **PhotoGrid**
+- [ ] **Story**
+- [ ] **Team**
+- [ ] **Testimonials**
 - [ ]  ...
 
 ## Running the Project
